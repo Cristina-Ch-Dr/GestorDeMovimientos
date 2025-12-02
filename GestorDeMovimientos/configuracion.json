@@ -1,0 +1,10 @@
+{
+    "ConnectionString": "Server=localhost;Database=GestorGastos;Trusted_Connection=True;",
+    "Consultas": {
+        "SeleccionarTodos": "SELECT * FROM Movimientos ORDER BY Id DESC",
+        "UltimosMovimientos": "SELECT TOP 5 * FROM Movimientos ORDER BY Id DESC",
+        "Insertar": "INSERT INTO Movimientos (Tipo, Importe, Descripcion) VALUES (@tipo, @importe, @descripcion)",
+        "Eliminar": "DELETE FROM Movimientos WHERE Id = @Id",
+        "ModificarDescripcion": "UPDATE Movimientos SET Descripcion = @Descripcion WHERE Id = @Id"
+    }
+}
