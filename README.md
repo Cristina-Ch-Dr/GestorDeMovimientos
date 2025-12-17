@@ -1,4 +1,4 @@
-#Gestor de Movimientos
+# Gestor de Movimientos
 <img width="803" height="481" alt="imagen" src="https://github.com/user-attachments/assets/e04fd435-684f-45a8-bf23-7b17f213c3a0" />
 Proyecto realizado para la asignatura de Acceso a Datos. Consiste en una aplicación simple de CRUD en WinForms conectada a una base de datos local.
 Ventanas de la aplicación:
